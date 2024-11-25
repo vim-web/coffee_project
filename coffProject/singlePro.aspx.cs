@@ -54,6 +54,7 @@ namespace coffProject
                 stock = stock_check();
                 double tot_price = 0;
                 tot_price = price_calc();
+                Session["cartid"] = n_cart;
             int qty = Convert.ToInt32(DropDownList1.SelectedItem.Text);
                 if (qty <= stock)
                 {

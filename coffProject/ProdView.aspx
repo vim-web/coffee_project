@@ -28,7 +28,7 @@
         <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:DataList ID="DataList1" runat="server" GridLines="Both" RepeatColumns="4" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="10px" CellPadding="10" CellSpacing="10">
+                    <asp:DataList ID="DataList1" runat="server" GridLines="Both" RepeatColumns="4" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="10px" CellPadding="10" CellSpacing="10" HorizontalAlign="Center">
                         <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
                         <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
                         <ItemStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
